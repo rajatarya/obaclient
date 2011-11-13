@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN"
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Globally unique identifier -->
+    <key>CFBundleIdentifier</key>
+    <string>com.rajatarya.obaclient</string>
+
+    <!-- Used by py2app to generate application bundle -->
+    <key>CFBundleName</key>
+    <string>obaclient</string>
+
+    <!-- Package type is an Application -->
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+
+    <!-- Version number - appears in About box -->
+    <key>CFBundleShortVersionString</key>
+    <string>0.3</string>
+
+    <!-- Build number - appears in About box -->
+    <key>CFBundleVersion</key>
+    <string>0.3</string>
+
+    <!-- Copyright notice - apears in About box -->
+    <key>NSHumanReadableCopyright</key>
+    <string>© Rajat Arya 2011</string>
+
+    <!-- Icon file name -->
+    <key>CFBundleIconFile</key>
+    <string>obaclient</string>
+
+    <!-- Development region? -->
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+
+    <!-- Executable name? -->
+    <key>CFBundleExecutable</key>
+    <string>obaclient</string>
+
+    <!-- Bundle display name -->
+    <key>CFBundleDisplayName</key>
+    <string>obaclient</string>
+
+	<!-- Run in 32-bit mode -->
+	<key>LSPrefersPPC</key>
+	<string>True</string>
+</dict>
+</plist>
